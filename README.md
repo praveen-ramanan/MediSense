@@ -44,12 +44,6 @@ MediSense allows users to:
 
 ---
 
-## System Architecture
-
-![Architecture](docs/architecture.png)
-
----
-
 ## Tech Stack
 
 ### Frontend
