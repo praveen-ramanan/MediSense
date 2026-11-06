@@ -2,9 +2,12 @@
 
 > Know Your Medicines. Reduce Your Risks.
 
-MediSense is a medication safety assistant that helps patients and caregivers identify potential drug-drug interactions from prescriptions using a deterministic interaction engine and plain-language explanations.
+> **Status: design proposal — not implemented.**
+> This repository documents the planned design for MediSense. No application code exists yet; every feature and component described below is planned, not available.
 
-Unlike systems that rely on LLMs for medical reasoning, MediSense performs interaction detection through a curated drug interaction dataset. The LLM is used only to explain verified interactions in a patient-friendly manner.
+MediSense is a planned medication safety assistant that would help patients and caregivers identify potential drug-drug interactions from prescriptions using a deterministic interaction engine and plain-language explanations.
+
+Unlike systems that rely on LLMs for medical reasoning, MediSense is designed to perform interaction detection through a curated drug interaction dataset. The LLM would be used only to explain verified interactions in a patient-friendly manner.
 
 ---
 
@@ -18,7 +21,7 @@ Manually checking every prescription is time-consuming, and most patients have n
 
 ## Solution
 
-MediSense allows users to:
+MediSense is designed to let users:
 
 - Create a patient profile
 - Upload or type prescriptions
@@ -30,7 +33,7 @@ MediSense allows users to:
 
 ---
 
-## Features
+## Planned Features
 
 - Patient profile management
 - Prescription image upload
@@ -44,7 +47,7 @@ MediSense allows users to:
 
 ---
 
-## Tech Stack
+## Planned Tech Stack
 
 ### Frontend
 - React
@@ -68,7 +71,7 @@ MediSense allows users to:
 
 ---
 
-## Workflow
+## Planned Workflow
 
 Patient Profile
 
@@ -118,6 +121,8 @@ It does **not** replace professional medical advice, diagnosis, or treatment.
 Always consult a qualified healthcare professional before making medication decisions.
 
 ---
+
+**Interface screenshots** (not produced by code in this repository):
 
 <img width="1236" height="806" alt="image" src="https://github.com/user-attachments/assets/6b10f72b-ad37-4755-a5be-659ffed6a40d" />
 <img width="742" height="817" alt="image" src="https://github.com/user-attachments/assets/e994292b-7c78-464a-bdd0-60364db63095" />
